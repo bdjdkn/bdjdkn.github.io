@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>k station</title>
+    <meta charset="utf-8">
+    <script>
+        function welcome()
+        {
+            var x="";
+            var time=new Date().getHours();
+            if (time<11&&time>=6) { x="GOOD MORNING";}
+            if (time<14&&time>=11) { x="GOOD NOON";}
+            if (time>=14&&time<18) { x="GOOD AFTERNOON";}
+            if (time>=18&&time<22) { x="GOOD EVENING";}
+            if (time<6||time>=22) { x="已经半夜了，请注意休息呦！φ(>ω<*) ";}
+            window.alert(x+"\n欢迎进入K站");
+        }
+    </script>
+<audio src="D:/k-on/滑滑蛋.mp3" autoplay></audio>
+</head>
+<body background="D:/k-on/1.1.jpg" onload="welcome()">
+<table width="100%" height="800" cellpadding="0" cellspacing="0" >
+<td valign="middle" align="center">
+<a href="D:/k-on/K-on.html" style="color:aquamarine;text-decoration: none;text-align: center; font-size: x-large;font-style: italic;">CLICK TO THE SMALL STATION</a>
+</td>
+</table>
+</body>
+</html>
